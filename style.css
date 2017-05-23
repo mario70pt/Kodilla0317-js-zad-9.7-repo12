@@ -1,0 +1,29 @@
+html, body {
+    height: 80%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-shadow: 2px 2px #7f8c8d;
+    text-transform: uppercase;
+}
+
+.text-center {
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+span {
+    margin: 15px;
+}
+#js-playerPoints, #js-computerPoints {
+    font-size: 25px;
+    padding: 10px;
+}
+#js-resultsTableElement {
+    color: #bdc3c7;
+    font-size: 25px;
+}
+
